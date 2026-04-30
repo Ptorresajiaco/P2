@@ -1,0 +1,28 @@
+# PlatformIO build artifacts
+.pio/
+build/
+
+# PlatformIO project files
+.platformio/
+
+# Arduino IDE files
+*.ino.backup
+*.hex
+*.elf
+*.map
+*.lst
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Log files
+*.log
