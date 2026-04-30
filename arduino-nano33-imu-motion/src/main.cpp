@@ -11,7 +11,7 @@ bool ledBlinking = false;
 unsigned long motionStartTime = 0;
 unsigned long lastMotionTime = 0;
 unsigned long lastBlinkTime = 0;
-unsigned long blinkInterval = 500;
+unsigned long blinkInterval = 100;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
